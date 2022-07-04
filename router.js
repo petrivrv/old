@@ -10,7 +10,7 @@ router.get('/',  (req,res) => { res.render('index'); });
 router.get('/cart',  (req,res) => { res.render('cart'); });
 
 
-//======= for API   
+//===== for API   
 router.get('/api/shops', async (req,res) => {
     const shop = await models.Shop.findAll();
     res.json( shop);
