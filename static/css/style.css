@@ -1,0 +1,33 @@
+.single-goods {
+    width: 200px;
+    height: 300px;
+    border: 1px solid rgb(185, 185, 185);
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+.single-goods button {
+    display: block;
+    margin: 20px auto;
+}
+
+ img
+{
+    width: 120px;
+    height: 110px;
+}
+.container {
+    width: 100%!important;
+}
+.single-cart {
+    width: 200px;
+    height: 250px;
+    border: 1px solid rgb(185, 185, 185);
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+#empty{
+    text-align:center;
+    color:rgb(238, 238, 238);
+}
